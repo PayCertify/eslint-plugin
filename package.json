@@ -2,7 +2,7 @@
   "name": "@paycertify/eslint-config",
   "version": "0.1.0",
   "description": "ESLint config for javascript projects",
-  "repository": "",
+  "repository": "https://github.com/PayCertify/eslint-config",
   "private": true,
   "main": "recommended.js",
   "keywords": [
@@ -11,7 +11,8 @@
     "eslint-plugin"
   ],
   "devDependencies": {
-    "eslint": "~6.1.0"
+    "eslint": "~6.1.0",
+    "lerna-changelog": "^0.8.2"
   },
   "engines": {
     "node": ">=0.10.0"
