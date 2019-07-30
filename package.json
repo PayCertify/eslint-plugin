@@ -1,18 +1,24 @@
 {
-  "name": "@paycertify/eslint-config",
-  "version": "0.2.1",
-  "description": "ESLint config for javascript projects",
-  "repository": "https://github.com/PayCertify/eslint-config",
+  "name": "@paycertify/eslint-plugin",
+  "version": "0.0.0",
+  "description": "ESLint plugin for javascript projects",
+  "repository": "https://github.com/PayCertify/eslint-plugin",
   "private": true,
-  "main": "recommended.js",
+  "main": "lib/index.js",
   "keywords": [
     "eslint",
     "eslintplugin",
-    "eslint-plugin"
+    "eslint-plugin",
+    "paycertify"
   ],
+  "dependencies": {
+    "eslint-plugin-ember": "^6.7.1"
+  },
   "devDependencies": {
-    "eslint": "~6.1.0",
-    "lerna-changelog": "^0.8.2"
+    "eslint": "^6.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.1.0"
   },
   "engines": {
     "node": ">=0.10.0"
