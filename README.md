@@ -48,6 +48,7 @@ Add `@paycertify` to the extends section of your `.eslintrc` configuration file 
 
 - `plugin:@paycertify/recommended` - recommended rules
 - `plugin:@paycertify/ember` - ember.js rules
+- `plugin:@paycertify/node` - node.js rules
 
 
 

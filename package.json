@@ -12,7 +12,8 @@
     "paycertify"
   ],
   "dependencies": {
-    "eslint-plugin-ember": "^6.7.1"
+    "eslint-plugin-ember": "^6.7.1",
+    "eslint-plugin-node": "^9.1.0"
   },
   "devDependencies": {
     "eslint": "^6.1.0"
