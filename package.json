@@ -11,13 +11,29 @@
     "eslint-plugin",
     "paycertify"
   ],
+  "scripts": {
+    "release": "release-it"
+  },
+  "release-it": {
+    "git": {
+      "tagName": "v${version}",
+      "commitMessage": "v${version}"
+    },
+    "npm": {
+      "publish": false
+    },
+    "github": {
+      "release": true
+    }
+  },
   "dependencies": {
     "babel-eslint": "^10.0.2",
     "eslint-plugin-ember": "^6.10.0",
     "eslint-plugin-node": "^9.1.0"
   },
   "devDependencies": {
-    "eslint": "^6.2.0"
+    "eslint": "^6.2.0",
+    "release-it": "^12.3.5"
   },
   "peerDependencies": {
     "eslint": "^6.2.0"
