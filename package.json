@@ -12,14 +12,15 @@
     "paycertify"
   ],
   "dependencies": {
-    "eslint-plugin-ember": "^6.7.1",
+    "babel-eslint": "^10.0.2",
+    "eslint-plugin-ember": "^6.10.0",
     "eslint-plugin-node": "^9.1.0"
   },
   "devDependencies": {
-    "eslint": "^6.1.0"
+    "eslint": "^6.2.0"
   },
   "peerDependencies": {
-    "eslint": "^6.1.0"
+    "eslint": "^6.2.0"
   },
   "engines": {
     "node": ">=0.10.0"
