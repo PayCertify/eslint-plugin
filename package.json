@@ -1,6 +1,6 @@
 {
   "name": "@paycertify/eslint-plugin",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "ESLint plugin for javascript projects",
   "repository": "https://github.com/PayCertify/eslint-plugin",
   "private": true,
