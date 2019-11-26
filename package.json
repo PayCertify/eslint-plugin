@@ -17,7 +17,8 @@
   "release-it": {
     "git": {
       "tagName": "v${version}",
-      "commitMessage": "v${version}"
+      "commitMessage": "v${version}",
+      "pushArgs": "--follow-tags"
     },
     "npm": {
       "publish": false
