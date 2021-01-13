@@ -31,7 +31,7 @@
   "dependencies": {
     "acorn": "^7.1.1",
     "babel-eslint": "10.1.0",
-    "eslint-plugin-ember": "7.11.0",
+    "eslint-plugin-ember": "10.1.2",
     "eslint-plugin-json": "2.1.1",
     "eslint-plugin-node": "11.0.0",
     "minimist": ">=1.2.2"
@@ -40,7 +40,7 @@
     "eslint": "^6.8.0",
     "glob": "^7.1.6",
     "jest": "^26.6.3",
-    "release-it": "^13.6.6"
+    "release-it": "^14.2.2"
   },
   "peerDependencies": {
     "eslint": "^6.7.0"

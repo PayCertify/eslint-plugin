@@ -1,0 +1,13 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+    timezone: Etc/UCT
+  open-pull-requests-limit: 10
+  reviewers:
+  - eliasmelgaco
+  assignees:
+  - eliasmelgaco
